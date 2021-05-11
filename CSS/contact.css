@@ -1,0 +1,190 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+body {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  background-image: url(../Images/back2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.page-wrapper {
+  width: 30rem;
+  margin: 70px 20px;
+  background-image: linear-gradient(to bottom, #FAFBFF, #7F5A25);  
+  padding: 1rem;
+  border-radius: 15px;
+
+}
+
+fieldset {
+  border: 1px solid #182337;
+ 	margin: 1rem;
+  border-radius: 15px;
+
+}
+
+legend {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem 1rem;
+
+ }
+
+label {
+  display: block;
+  padding-bottom: 0.5rem;
+
+ }
+
+textarea {
+  height: 6rem;
+  padding: 1rem;
+
+}
+
+button {
+  font-size: 1.5rem;
+  background-color: #DDB465;
+  color: #EBF5F7;
+  border: none;
+  margin: 1rem 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+
+}
+
+button a {
+  text-decoration: none;
+  color: #EBF5F7;
+
+}
+
+button:hover {
+  background-color: #BCAB94;
+  color: white;
+
+}
+
+input:not([type="radio"]), textarea {
+  display: block;
+  margin-bottom: 1.5rem;
+  width: 23rem;
+  height: 2rem;
+  font-size: 1rem;
+  padding: 0 1rem;
+  border: none;
+  border-radius: 15px;
+
+}
+
+[for="gender"] {
+  margin-top: 2rem;
+
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color:#2A4014;
+  border-bottom: .75rem solid #2A4014;
+  display: flex;
+
+}
+
+
+
+.nav a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 28px;
+
+}
+
+
+.nav a:hover {
+  background-color: #1E2829;
+  font-size: 26px;
+  color:#956320;
+
+}
+
+#comment {
+  height: 6rem;
+
+}
+
+button:disabled {
+  background-color: dimgrey;
+  cursor: not-allowed;
+
+}
+
+input:hover, textarea{
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+
+
+
+#footer-cont{
+  background-color:#202B1A;
+  display: flex;
+  
+}
+
+.footer {
+  list-style-type: none;
+  bottom: 0;
+  width: 100%;
+  background-color:#202B1A;
+  display: flex;
+  justify-content: flex-start;
+  
+}
+
+.footer a  {
+  padding: 5px 20px;
+  color:#D5E5F4;
+  text-decoration: none;
+
+}
+
+
+.change:hover {
+  color:#DFB469;
+  font-size: 30px;
+  transition: font-size 1s;
+  border-left: 1px solid #DFB469;
+  border-right: 1px solid #DFB469;
+  
+}
+
+.change{
+  font-size: 23px;
+  transition: font-size 2s;
+
+}
+
+
+
+#footer-cont p {
+  color: #DFB469;
+  
+}

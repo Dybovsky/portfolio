@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>My_contact</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/contact.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div>
+        <ul class="nav">
+
+            <li><a href="./index.html" title="Home page">Home</a></li>
+
+            <li><a href="./about.html" title='About me'>About</a></li>
+
+            <li><a href="./contact.html" title='My contacts'>Contact</a></li>
+
+        </ul>
+
+    </div>
+
+    <div class="page-wrapper">
+
+            <form action="" method="POST" name="reg">
+
+                <fieldset class="fieldset1">
+                    
+                    <legend>Contact information</legend>
+
+                        <label for="first_name">First Name</label>
+                            <input onblur="changeButtonStatus()" type="text" required placeholder="Robert"
+                            name="first_name" id="first_name">
+
+                        <label for="last_name">Last Name</label>
+                        <input  type="text"  placeholder="Paulson"
+                        name="last_name" id="last_name">
+                        
+                        <label for="email">E-mail</label>
+                        <input onblur="changeButtonStatus()" type="mail" required
+                            name="email" id="email" placeholder="example@.com">
+
+                        
+
+                        <label for="bd">Day of Birtday</label>
+                            <input onblur="changeButtonStatus()" type="date" required
+                            name="bd" id="bd">
+
+                        <label for="gender">Gender</label>
+
+                            <label>
+                            <input type="radio" required name="gender" value="male">Male</label>
+                    
+                            <label>
+                                <input type="radio" name="gender" value="female">Female</label>
+
+                            <label>
+                                <input type="radio" checked name="gender" value="Not selected">Not selected</label>
+
+
+                        <label for="comment">Note</label>
+                        <textarea <input onkeyup="changeButtonStatus()" name="comment" required id="comment"></textarea>
+
+                        
+                        <button type="submit"  id="subm" name="submit"  >Send</button>
+                        <button><a href="javascript:history.back()">Back</a></button>
+
+                </fieldset>
+
+            </form>
+        
+    </div>
+
+    <div id="footer-cont">
+
+        <ul class="footer">
+                
+            <li><a href="./index.html" title="Home page">
+                    
+                <span class="change">&nbsp; H &nbsp;</span>
+                <span class="change">&nbsp; o &nbsp;</span>
+                <span class="change">&nbsp; m &nbsp;</span>
+                <span class="change"> &nbsp;e &nbsp;</span>
+                    
+                    
+            </a></li>
+                
+            <li><a href="./about.html" title='About me'>
+                    
+                <span class="change">&nbsp;A&nbsp;</span>
+                <span class="change">&nbsp;b&nbsp;</span>
+                <span class="change">&nbsp;o&nbsp;</span>
+                <span class="change">&nbsp;u&nbsp;</span>
+                <span class="change">&nbsp;t&nbsp;</span>
+                
+            </a></li>
+            
+            <li><a href="./contact.html" title='My contacts'>
+                
+                <span class="change">&nbsp;C&nbsp;</span>
+                <span class="change">&nbsp;o&nbsp;</span>
+                <span class="change">&nbsp;n&nbsp;</span>
+                <span class="change">&nbsp;t&nbsp;</span>
+                <span class="change">&nbsp;a&nbsp;</span>
+                <span class="change">&nbsp;c&nbsp;</span>
+                <span class="change">&nbsp;t&nbsp;</span>
+                
+            </a></li>
+            
+        </ul>
+        
+    </div>
+
+    <script src="../JS/contact.js"></script>
+    
+</body>
+</html>
